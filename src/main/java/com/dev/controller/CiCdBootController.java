@@ -13,6 +13,6 @@ public class CiCdBootController {
 	
 	@GetMapping("/{name}")
     public ResponseEntity<String> askQuestion(@PathVariable(value = "name") String name) {
-      return ResponseEntity.ok("Hey " + name + ", Welcome to CICD pipe line through localhost jenkins and github..");
+      return ResponseEntity.ok("Hey " + name + ", Welcome to CICD pipe line through jenkins running at localhost and github..");
     }
 }
