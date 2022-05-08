@@ -13,6 +13,6 @@ public class CiCdBootController {
 	
 	@GetMapping("/{name}")
     public ResponseEntity<String> askQuestion(@PathVariable(value = "name") String name) {
-      return ResponseEntity.ok("Hey " + name + ", Welcome to planet Earth..");
+      return ResponseEntity.ok("Hey " + name + ", Welcome to CI pipe line..");
     }
 }
